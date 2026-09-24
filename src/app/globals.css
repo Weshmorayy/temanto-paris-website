@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg-primary: #FFFFFF;
+  --color-bg-secondary: #0B2E23;
+  --color-bg-tertiary: #F8F5F0;
+  --color-bg-dark: #071A14;
+  --color-accent-gold: #D4AF37;
+  --color-accent-gold-hover: #B89628;
+  --color-accent-plum: #7B1842;
+  --color-text-primary: #121815;
+  --color-text-body: #4A5568;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+}
+
+::selection {
+  background-color: #0B2E23;
+  color: #D4AF37;
+}
+
+/* Utilitaires typographiques et bordures subtiles */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #F3E5AB 0%, #D4AF37 50%, #AA771C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border {
+  border-color: rgba(212, 175, 55, 0.25);
+}
+
+.gold-border-glow:hover {
+  border-color: rgba(212, 175, 55, 0.7);
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.15);
+}
