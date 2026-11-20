@@ -12,8 +12,8 @@ export const siteConfig: SiteConfig = {
   address: 'Almadies 2 Keur Massar, Sedima',
   quarter: 'Almadies 2 / Keur Massar',
   email: 'khadijafatimacam@outlook.com',
-  phone: '+221 77 000 00 00', // À mettre à jour dès confirmation du numéro direct
-  whatsappNumber: '221770000000', // Standard international sans +
+  phone: '+221 70 802 72 77',
+  whatsappNumber: '221708027277', // Standard international sans +
   url: 'https://temanto-paris.vercel.app',
   currency: 'FCFA',
   deliveryZones: [
@@ -32,7 +32,7 @@ export const siteConfig: SiteConfig = {
   hours: 'Lun – Sam : 9h00 – 19h30',
   socials: {
     facebook: 'https://facebook.com/profile',
-    whatsapp: 'https://wa.me/221770000000',
+    whatsapp: 'https://wa.me/221708027277',
   },
   features: [
     {
